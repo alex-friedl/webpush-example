@@ -13,7 +13,7 @@
     "@feathersjs/express": "^1.2.3",
     "@feathersjs/feathers": "^3.1.6",
     "feathers-memory": "^2.1.1",
-    "node-pushnotifications": "^1.1.0",
+    "node-pushnotifications": "^1.1.1",
     "winston": "^2.4.2"
   },
   "devDependencies": {
