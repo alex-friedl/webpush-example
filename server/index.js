@@ -1,9 +1,13 @@
 const feathers = require('@feathersjs/feathers');
 const express = require('@feathersjs/express');
 const memory = require('feathers-memory');
-const log = require('winston');
+const winston = require('winston');
 const path = require('path');
 const PushNotifications = require('node-pushnotifications');
+
+const log = winston.createLogger({
+  transports: [new winston.transports.Console()]
+});
 
 const settings = {
   web: {
